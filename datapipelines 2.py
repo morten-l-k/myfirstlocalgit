@@ -154,7 +154,6 @@ class ShowAsciiBarchart(Step):
         return dictionary
 
 tmpObj = ShowAsciiBarchart()
-# tmpObj.apply(numbersInCrit)
 
 class Square(Step):
     def apply(self,input):
@@ -170,3 +169,5 @@ class Square(Step):
 
 squareSome = Square()
 print(squareSome.apply([4,5]))
+#Trying to add a new line to see changes in VSC
+print(squareSome.apple([1,2,3]))
